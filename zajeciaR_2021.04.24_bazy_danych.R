@@ -97,7 +97,7 @@ dbDisconnect(con)
 library(rstudioapi)
 library(RPostgres)
 
-# utworzenie konta na elephantsql.com
+# PRZED: utworzyc konto na elephantsql.com
 connectMe<-function(typ=Postgres(),dbname="zwxfmuml",host="rogue.db.elephantsql.com",user="zwxfmuml"){
   con<-dbConnect(
     typ,
